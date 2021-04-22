@@ -40,9 +40,6 @@ public class ProductService {
 	}
 	
 	
-	
-	
-	
 	@PUT
 	@Path("/") 
 	@Consumes(MediaType.APPLICATION_JSON) 
@@ -60,9 +57,6 @@ public class ProductService {
 		 String output = productObj.updateProduct(productID, productCode, productName, productPrice, productDesc); 
 		 return output; 
 	}
-	
-	
-	
 	
 	
 	@DELETE

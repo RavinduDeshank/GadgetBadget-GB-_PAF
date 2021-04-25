@@ -9,7 +9,7 @@ public class User {
 		 {
 		 Class.forName("com.mysql.jdbc.Driver");
 
-		 con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/user", "root", "");
+		 con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test", "root", "");
 		 }
 		 catch (Exception e)
 		 {e.printStackTrace();}
